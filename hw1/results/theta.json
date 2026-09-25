@@ -1,0 +1,22 @@
+{
+  "theta": {
+    "latency": {
+      "theta_0": 0.0002153951385762108,
+      "theta_bw": 1393848804279.2046,
+      "theta_gflops": 2481846876328.005
+    },
+    "energy": {
+      "P_idle": 7.286971400898555e-09,
+      "e_byte": 9.750855480967759e-20,
+      "e_flop": 2.8395206421635877e-11
+    }
+  },
+  "metrics": {
+    "memory_mape_train_pct": 60.88155686268725,
+    "memory_mape_val_pct": 60.404987435965,
+    "latency_mape_train_pct": 45.20424381456282,
+    "latency_mape_val_pct": 30.193422009265458,
+    "energy_mape_train_pct": 58.51360278936324,
+    "energy_mape_val_pct": 36.870843570571985
+  }
+}
