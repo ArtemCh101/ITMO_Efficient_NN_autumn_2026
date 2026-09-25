@@ -9,7 +9,7 @@
 ### Руками полученные формулы
 
 * **FLOPs:**
-  $$\text{FLOPs}(B, S) = B \cdot (360218624 \cdot S^2 + 13107200)$$
+  $$\text{FLOPs}(B, S) = B \cdot (17712 \cdot S^2 + 313344)$$
 * **Memory (Bytes):**
   $$\text{Memory}(B, S) = 4159872 + 44 \cdot B \cdot S^2$$
 * **Latency (Seconds):**
