@@ -1,0 +1,58 @@
+{
+  "torch": "2.7.1+cu118",
+  "torchvision": "0.22.1+cu118",
+  "python": "3.10.19",
+  "gpu": "NVIDIA GeForce RTX 3070 Ti",
+  "amp": true,
+  "batch_size": 128,
+  "retrain_epochs_equiv": 50,
+  "total_steps": 19500,
+  "keep_fractions": [
+    1.0,
+    0.9,
+    0.7,
+    0.5,
+    0.3
+  ],
+  "eval_seeds": [
+    101,
+    202,
+    303
+  ],
+  "score_seeds": [
+    42,
+    1042,
+    2042,
+    3042,
+    4042,
+    5042,
+    6042,
+    7042,
+    8042,
+    9042
+  ],
+  "score_epochs": [
+    1,
+    2,
+    5,
+    10,
+    20
+  ],
+  "target_score_epoch": 10,
+  "forget_runs": 10,
+  "noise_fraction": 0.1,
+  "noise_label_seed": 2024,
+  "scoring_cost_epochs": {
+    "el2n_as_run": 200,
+    "el2n_until_target_epoch": 100,
+    "forgetting": 500
+  },
+  "key_numbers": {
+    "spearman_el2n_target_vs_forgetting": 0.8684302858603666,
+    "spearman_el2n_late_vs_forgetting": 0.8425926445481482,
+    "noise_top_share_corrupted": 0.8545414209365845,
+    "noise_mean_el2n_true_labels": 0.4036339819431305,
+    "noise_mean_el2n_corrupted": 1.2113581895828247,
+    "noise_mean_el2n_corrupted_before_noise": 0.3048027753829956
+  }
+}
