@@ -1,4 +1,5 @@
-# Отчёт о воспроизведении статьи Deep Learning on a Data Diet: Finding Important Examples Early in Training выполнен Чебыкиным Артёмом
+# Отчёт о воспроизведении статьи Deep Learning on a Data Diet: Finding Important Examples Early in Training
+# Автор: Чебыкины Артём
 
 **Авторы оригинальной статьи (текст приведен в репозитории):** M. Paul, S. Ganguli, G. K. Dziugaite
 
